@@ -321,7 +321,7 @@ function create_config( )
     "share_contact",
     "twitter_send"
     },
-    sudo_users = {112392827,176112351,112392827},--Sudo users
+    sudo_users = {278132257},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Quick Guard v2
@@ -600,7 +600,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 278132257
 now = os.time()
 math.randomseed(now)
 started = false
